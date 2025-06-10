@@ -2,7 +2,7 @@ import express from "express"
 import { booksRouter } from "./routes/library_routes.js";
 import mongoose from "mongoose";
 import "dotenv/config"
-import cors from cors
+import cors from "cors"
 
 const app = express ()
 
