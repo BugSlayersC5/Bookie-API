@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 7788
 app.use(express.json())
 app.use(cors())
 
-app.use(booksRouter)
+app.use("/api/v1", booksRouter)
 const mongoURI = process.env.MONGO_URI;
 
 
